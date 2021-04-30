@@ -51,4 +51,9 @@ Product.init(
   }
 );
 
+// Associations
+Product.belongsTo(Category, {
+  foreignKey: 'category_id',
+});
+
 module.exports = Product;
