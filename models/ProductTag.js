@@ -36,12 +36,4 @@ ProductTag.init(
   }
 );
 
-
-// Associations
-Product.belongsToMany(Tag, {
-  through: ProductTag,
-  foreignKey: 'product_id'
-});
-
-
 module.exports = ProductTag;

@@ -26,9 +26,4 @@ Category.init(
   }
 );
 
-// Associations
-Category.hasMany(Product, {
-  foreignKey: 'category_id',
-});
-
 module.exports = Category;
