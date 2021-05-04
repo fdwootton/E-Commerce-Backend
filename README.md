@@ -11,11 +11,11 @@ This application allows the user to manage commercial inventory.  The user is ab
 - [Questions](#questions)
 
 ## **Installation**
-Run "npm i" to install all necessary dependencies.
+Run "npm i" to install all necessary dependencies.<br/>
 Run "node seeds/index.js" to seed your database.
 
 ## **Usage**
-Run "npm start" to launch the server. <br/>
+Run "npm start" to start the server. <br/>
 Click [**HERE**](https://drive.google.com/file/d/1RYB84RyvCzoOK4OqJmitgZDx5bRwZcGm/view) for E-commerce Backend Demo 
 
 ## **License**
